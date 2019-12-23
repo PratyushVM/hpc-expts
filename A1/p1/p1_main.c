@@ -55,7 +55,7 @@ int main(){
           4.0*1e-9*N*N/t,t);
 // Verify correctness
   if ((compare(N,y,yy) + compare(N,z,zz))==0)
-     printf("Passed corectness check\n");
+     printf("Passed correctness check\n");
 }
 
 void baseversion(int n, double A[][n], double x[n], double y[n], double z[n]){
