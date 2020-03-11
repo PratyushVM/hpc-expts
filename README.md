@@ -1,3 +1,3 @@
-# pratyush_iiitdm
+# hpc-expts
 
-This is the repo which contains my HPC experiments and analysis
+Repository containing my experiments and analysis in HPC.
