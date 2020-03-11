@@ -1,0 +1,15 @@
+Instructions for submitting programming assignment A2
+
+Objective: To parallelize and optimize the programs provided. 
+
+Download the assignment. Copy it to your login on cluster (use scp or winscp). Use unzip command to extract the assignment in your home-directory.
+cd; unzip A2.zip
+For assignment 2, we have two problems (i) msort and (ii) mmt. Each program consists of two files like in the previous assignment. You are supposed to change only msort.c and mmt.c.
+For parallelization, you are allowed to use only OpenMP constructs.
+Your  are required to add -fopenmp flag while compiling a C program with openmp constructs.
+For eg: gcc -fopenmp -O3 filename_main.c filename.c 
+You are supposed to maintain all files in home folder in the hierarchy provided in the template (e.g., after you have installed the template, if you execute ls command after you login, you should see A3 directory in your home folder; ls ~/A3 must list your submission files.
+
+        
+                Thanks :)
+
